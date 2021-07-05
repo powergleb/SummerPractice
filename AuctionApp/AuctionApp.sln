@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActionPL", "WpfApp1\ActionPL.csproj", "{FA4E491B-C71C-44D2-9E62-614A53A906B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{3EEC075F-E0FF-4CC0-82EA-1491FFF6DF26}"
+	ProjectSection(SolutionItems) = preProject
+		User.cs = User.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAO", "DAO", "{D05AB322-1370-41B1-A81F-8BDAB3393CAC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PL", "PL", "{3032D448-B803-4D6A-97CB-5F25AE513FB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA4E491B-C71C-44D2-9E62-614A53A906B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA4E491B-C71C-44D2-9E62-614A53A906B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA4E491B-C71C-44D2-9E62-614A53A906B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA4E491B-C71C-44D2-9E62-614A53A906B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FA4E491B-C71C-44D2-9E62-614A53A906B2} = {3032D448-B803-4D6A-97CB-5F25AE513FB9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {689BCAAC-3370-472A-85D9-6EA1786A97AA}
+	EndGlobalSection
+EndGlobal
