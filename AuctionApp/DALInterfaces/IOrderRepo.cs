@@ -9,10 +9,11 @@ namespace DALInterfaces
 {
     public interface IOrderRepo
     {
-        Task<Order> GetLotById(int orderId);
-        Task CreateOrder(Order order);
-        Task DeleteOrder(int orderId);
-        Task UpdateOrder(int orderId);
+        Order GetLotById(int orderId);
+        void CreateOrder(Order order);
+        void DeleteOrder(int orderId);
+        void UpdateOrder(int orderId);
+        ICollection<Order> GetLotsByUserId(int userId);
 
     }
 }

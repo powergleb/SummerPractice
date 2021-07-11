@@ -14,7 +14,7 @@ namespace SqlEfDAL
         [Key]
         public int Id { get; set; }
         public string Description { get; set; }
-        public int StrtingPrice { get; set; }
+        public int StartingPrice { get; set; }
         public double CurrentPrice { get; set; }
         public DateTime ExpirationDate { get; set; }
 

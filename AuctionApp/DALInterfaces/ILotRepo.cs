@@ -9,10 +9,15 @@ namespace DALInterfaces
 {
     public interface ILotRepo
     {
-        Task<Lot> GetLotById(int lotId);
-        Task<ICollection<Lot>> GetLotsByPrice(double price);
-        Task CreateLot(Lot lot);
-        Task DeleteLot(int lotId);
-        Task UpdateLot(int lotId);
+        Lot GetLotById(int lotId);
+        ICollection<Lot> GetLotsByPrice(double price);
+        void CreateLot(Lot lot);
+        void DeleteLot(int lotId);
+        void UpdateLot(int lotId);
+
+        ICollection<Lot> GetPurchasedLots(double price);
+        ICollection<Lot> GetSelledLots(double price);
+
+
     }
 }

@@ -17,7 +17,6 @@ namespace SqlEfDAL
         public int LotId { get; set; }
         [ForeignKey("LotId")]
         public virtual Lot Lot { get; set; }
-
         public int UserId { get; set; }
         [ForeignKey("UserId")]
         public virtual User User { get; set; }

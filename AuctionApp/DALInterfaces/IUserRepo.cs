@@ -9,11 +9,8 @@ namespace DALInterfaces
 {
     public interface IUserRepo
     {
-        Task<User> GetUserById(int userId);
-        Task<User> GetUserByLogin(string login);
-        Task CreateUser(User user);
-        Task DeleteUser(int userId);
-        Task UpdateUser(int userId);
-
+        User GetUserById(int userId);
+        void CreateUser(User user);
+        void UpdateUser(int userId, int Age, string Login, string Name, string Pass, string Patronymic, string Surname);
     }
 }

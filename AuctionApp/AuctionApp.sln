@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DALInterfaces", "DALInterfa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{84B7F688-946C-4969-83EA-6765E64AE154}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions", "Exceptions\Exceptions.csproj", "{BDFD210F-13CB-4D90-87C9-C91624537FC7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{84B7F688-946C-4969-83EA-6765E64AE154}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84B7F688-946C-4969-83EA-6765E64AE154}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84B7F688-946C-4969-83EA-6765E64AE154}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDFD210F-13CB-4D90-87C9-C91624537FC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDFD210F-13CB-4D90-87C9-C91624537FC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDFD210F-13CB-4D90-87C9-C91624537FC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDFD210F-13CB-4D90-87C9-C91624537FC7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +56,7 @@ Global
 		{BC74237C-713A-4080-B897-16DF836C444A} = {EE67314D-1A46-4C35-BD3A-51D96193D212}
 		{65FA3280-7518-4367-8D3B-0EBB1898A130} = {EE67314D-1A46-4C35-BD3A-51D96193D212}
 		{84B7F688-946C-4969-83EA-6765E64AE154} = {38334F67-AD4B-44B6-8408-9190A2B98711}
+		{BDFD210F-13CB-4D90-87C9-C91624537FC7} = {38334F67-AD4B-44B6-8408-9190A2B98711}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {689BCAAC-3370-472A-85D9-6EA1786A97AA}

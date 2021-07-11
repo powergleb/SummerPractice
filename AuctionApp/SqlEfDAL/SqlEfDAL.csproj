@@ -53,15 +53,23 @@
   <ItemGroup>
     <Compile Include="Context\AuctionContext.cs" />
     <Compile Include="Context\AuctionContextIntializer.cs" />
-    <Compile Include="Entities\Lot.cs" />
-    <Compile Include="Entities\Order.cs" />
+    <Compile Include="Repositories\OrderRepo.cs" />
     <Compile Include="Repositories\UserRepo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Entities\User.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DALInterfaces\DALInterfaces.csproj">
+      <Project>{65fa3280-7518-4367-8d3b-0ebb1898a130}</Project>
+      <Name>DALInterfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entities\Entities.csproj">
+      <Project>{84b7f688-946c-4969-83ea-6765e64ae154}</Project>
+      <Name>Entities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

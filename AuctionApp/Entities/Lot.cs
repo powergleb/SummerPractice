@@ -11,6 +11,10 @@ namespace Entities
         public double StartingPrice { get; set; }
         public double CurrentPrice { get; set; }
         public DateTime ExpirationDate { get; set; }
+        public int SellingUserId { get; set; }
+        public virtual User SellingUser { get; set; }
+        public int? BuyingUserId { get; set; }
+        public User BuyingUser { get; set; }
 
     }
 }
