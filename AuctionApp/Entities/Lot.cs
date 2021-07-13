@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace Entities
@@ -9,12 +10,12 @@ namespace Entities
         public int Id { get; set; }
         public string Description { get; set; }
         public double StartingPrice { get; set; }
-        public double CurrentPrice { get; set; }
         public DateTime ExpirationDate { get; set; }
         public int SellingUserId { get; set; }
-        public virtual User SellingUser { get; set; }
-        public int? BuyingUserId { get; set; }
-        public User BuyingUser { get; set; }
-
+        public virtual ICollection<Order> Orders { get; set; }
+        public Lot()
+        {
+            Orders = new List<Order>();
+        }
     }
 }

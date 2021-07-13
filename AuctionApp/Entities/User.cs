@@ -12,16 +12,12 @@ namespace Entities
         public string Patronymic { get; set; }
         public string Login { get; set; }
         public string Pass { get; set; }
-        public int Age { get; set; }
-        public ICollection<Order> Orders { get; set; }
-        public ICollection<Lot> PurchasedLots { get; set; }
-        public ICollection<Lot> SelledLots { get; set; }
+        public DateTime? DateofBirth { get; set; }
 
+        public virtual ICollection<Order> Orders { get; set; }
         public User()
         {
             Orders = new List<Order>();
-            PurchasedLots = new List<Lot>();
-            SelledLots = new List<Lot>();
         }
     }   
 }

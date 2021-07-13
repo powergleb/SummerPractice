@@ -53,6 +53,7 @@
   <ItemGroup>
     <Compile Include="Context\AuctionContext.cs" />
     <Compile Include="Context\AuctionContextIntializer.cs" />
+    <Compile Include="Repositories\LotRepo.cs" />
     <Compile Include="Repositories\OrderRepo.cs" />
     <Compile Include="Repositories\UserRepo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -69,6 +70,10 @@
     <ProjectReference Include="..\Entities\Entities.csproj">
       <Project>{84b7f688-946c-4969-83ea-6765e64ae154}</Project>
       <Name>Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Exceptions\Exceptions.csproj">
+      <Project>{BDFD210F-13CB-4D90-87C9-C91624537FC7}</Project>
+      <Name>Exceptions</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entiti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions", "Exceptions\Exceptions.csproj", "{BDFD210F-13CB-4D90-87C9-C91624537FC7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsolePL", "ConsolePL\ConsolePL.csproj", "{9970870F-15E5-4B4C-9FAB-67F98A6DD67C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{BDFD210F-13CB-4D90-87C9-C91624537FC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDFD210F-13CB-4D90-87C9-C91624537FC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDFD210F-13CB-4D90-87C9-C91624537FC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9970870F-15E5-4B4C-9FAB-67F98A6DD67C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9970870F-15E5-4B4C-9FAB-67F98A6DD67C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9970870F-15E5-4B4C-9FAB-67F98A6DD67C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9970870F-15E5-4B4C-9FAB-67F98A6DD67C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +63,7 @@ Global
 		{65FA3280-7518-4367-8D3B-0EBB1898A130} = {EE67314D-1A46-4C35-BD3A-51D96193D212}
 		{84B7F688-946C-4969-83EA-6765E64AE154} = {38334F67-AD4B-44B6-8408-9190A2B98711}
 		{BDFD210F-13CB-4D90-87C9-C91624537FC7} = {38334F67-AD4B-44B6-8408-9190A2B98711}
+		{9970870F-15E5-4B4C-9FAB-67F98A6DD67C} = {96A4447D-AC3C-4E63-8FC9-0F31C47FC05C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {689BCAAC-3370-472A-85D9-6EA1786A97AA}

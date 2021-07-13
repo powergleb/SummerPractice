@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SqlEfDAL
 {
-    class AuctionContextIntializer : CreateDatabaseIfNotExists<AuctionContext>
+    public class AuctionContextIntializer : CreateDatabaseIfNotExists<AuctionContext>
     {
         protected override void Seed(AuctionContext db)
         {

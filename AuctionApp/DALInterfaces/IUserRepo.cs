@@ -11,6 +11,6 @@ namespace DALInterfaces
     {
         User GetUserById(int userId);
         void CreateUser(User user);
-        void UpdateUser(int userId, int Age, string Login, string Name, string Pass, string Patronymic, string Surname);
+        void UpdateUser(int userId, DateTime DateofBirth, string Login, string Name, string Pass, string Patronymic, string Surname);
     }
 }

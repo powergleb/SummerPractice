@@ -94,5 +94,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SqlEfDAL\SqlEfDAL.csproj">
+      <Project>{bc74237c-713a-4080-b897-16df836c444a}</Project>
+      <Name>SqlEfDAL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

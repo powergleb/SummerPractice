@@ -1,0 +1,17 @@
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\SqlEfDAL\bin\Debug\SqlEfDAL.dll.config
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\SqlEfDAL\bin\Debug\SqlEfDAL.dll
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\SqlEfDAL\bin\Debug\SqlEfDAL.pdb
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\SqlEfDAL\bin\Debug\DALInterfaces.dll
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\SqlEfDAL\bin\Debug\Entities.dll
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\SqlEfDAL\bin\Debug\EntityFramework.dll
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\SqlEfDAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\SqlEfDAL\bin\Debug\DALInterfaces.pdb
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\SqlEfDAL\bin\Debug\Entities.pdb
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\SqlEfDAL\bin\Debug\EntityFramework.xml
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\SqlEfDAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\SqlEfDAL\obj\Debug\SqlEfDAL.csprojAssemblyReference.cache
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\SqlEfDAL\obj\Debug\SqlEfDAL.csproj.CoreCompileInputs.cache
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\SqlEfDAL\obj\Debug\SqlEfDAL.csproj.CopyComplete
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\SqlEfDAL\obj\Debug\SqlEfDAL.dll
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\SqlEfDAL\obj\Debug\SqlEfDAL.pdb
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\SqlEfDAL\bin\Debug\Entities.dll.config

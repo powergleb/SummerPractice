@@ -10,14 +10,9 @@ namespace DALInterfaces
     public interface ILotRepo
     {
         Lot GetLotById(int lotId);
-        ICollection<Lot> GetLotsByPrice(double price);
         void CreateLot(Lot lot);
         void DeleteLot(int lotId);
-        void UpdateLot(int lotId);
-
-        ICollection<Lot> GetPurchasedLots(double price);
-        ICollection<Lot> GetSelledLots(double price);
-
-
+        void UpdateLot(int lotId, string description, double startingPrice, DateTime expirationDate);
+        ICollection<Lot> GetLotsByBet(Double bet);
     }
 }

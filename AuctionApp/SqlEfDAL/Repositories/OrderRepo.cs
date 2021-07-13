@@ -1,41 +1,48 @@
 ﻿using DALInterfaces;
 using Entities;
+using Exceptions;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace SqlEfDAL.Repositories
 {
-    class OrderRepo : IOrderRepo
+    public class OrderRepo : IOrderRepo
     {
         AuctionContext db;
         public void CreateOrder(Order order)
         {
             db = new AuctionContext();
-
-            db.Orders.Add(order);
+            if ((order.Bet < db.Lots.Find(order.LotId).StartingPrice) ||
+                (order.Bet < db.Orders.Where(p=> p.LotId == order.LotId).OrderByDescending(p=>p.Bet).FirstOrDefault().Bet))
+            {
+                throw new InvalidValueException();
+            }
+            else
+            {
+                var t = db.Orders.Add(order);
+                db.SaveChanges();
+                order.Id = t.Id;
+            }
+            
         }
 
         public void DeleteOrder(int orderId)
         {
-            throw new NotImplementedException();
+            db = new AuctionContext();
+            var p1 = db.Orders.Find(orderId);
+            if (p1 != null)
+            {
+                db.Entry(p1).State = EntityState.Deleted;
+                db.SaveChanges();
+            }
+            var t = db.Orders.Remove(p1);
+            db.SaveChanges();
         }
 
-        public Order GetLotById(int orderId)
-        {
-            throw new NotImplementedException();
-        }
-
-        public ICollection<Entities.Order> GetLotsByUserId(int userId)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void UpdateOrder(int orderId)
-        {
-            throw new NotImplementedException();
-        }
+       
     }
 }
