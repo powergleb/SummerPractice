@@ -12,5 +12,10 @@ namespace DALInterfaces
         User GetUserById(int userId);
         void CreateUser(User user);
         void UpdateUser(int userId, DateTime DateofBirth, string Login, string Name, string Pass, string Patronymic, string Surname);
+
+        ICollection<Lot> GetSelledLots(int userId);
+        ICollection<Lot> GetPurchasedLots(int userId);
+        User GetUserByLogin(string login);
+
     }
 }

@@ -1,0 +1,10 @@
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\BLLInterfaces\bin\Debug\BLLInterfaces.dll
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\BLLInterfaces\bin\Debug\BLLInterfaces.pdb
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\BLLInterfaces\bin\Debug\Entities.dll
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\BLLInterfaces\bin\Debug\Entities.pdb
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\BLLInterfaces\bin\Debug\Entities.dll.config
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\BLLInterfaces\obj\Debug\BLLInterfaces.csprojAssemblyReference.cache
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\BLLInterfaces\obj\Debug\BLLInterfaces.csproj.CoreCompileInputs.cache
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\BLLInterfaces\obj\Debug\BLLInterfaces.csproj.CopyComplete
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\BLLInterfaces\obj\Debug\BLLInterfaces.dll
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\BLLInterfaces\obj\Debug\BLLInterfaces.pdb

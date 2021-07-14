@@ -1,0 +1,6 @@
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\Exceptions\bin\Debug\Exceptions.dll
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\Exceptions\bin\Debug\Exceptions.pdb
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\Exceptions\obj\Debug\Exceptions.csprojAssemblyReference.cache
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\Exceptions\obj\Debug\Exceptions.csproj.CoreCompileInputs.cache
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\Exceptions\obj\Debug\Exceptions.dll
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\Exceptions\obj\Debug\Exceptions.pdb

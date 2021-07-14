@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,7 @@ namespace BLLInterfaces
 {
     public interface IOrderLogic
     {
+        void CreateOrder(Order order);
+        void DeleteOrder(int orderId);
     }
 }

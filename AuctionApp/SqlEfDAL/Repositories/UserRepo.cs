@@ -66,7 +66,15 @@ namespace SqlEfDAL.Repositories
             db = new AuctionContext();
             User user = db.Users.Find(userId); ;
             user.DateofBirth = DateofBirth;
-            user.Login = Login;
+           
+            if (GetUserByLogin(Login) == null)
+            {
+                user.Login = Login;
+            }
+            else
+            {
+                throw new ValueAlreadyExistsException();
+            }
             user.Name = Name;
             user.Pass = Pass;
             user.Patronymic = Patronymic;

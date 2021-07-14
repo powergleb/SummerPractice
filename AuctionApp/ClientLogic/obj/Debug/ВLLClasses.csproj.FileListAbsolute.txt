@@ -1,0 +1,2 @@
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\ClientLogic\obj\Debug\ВLLClasses.csprojAssemblyReference.cache
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\ClientLogic\obj\Debug\ВLLClasses.csproj.CoreCompileInputs.cache
