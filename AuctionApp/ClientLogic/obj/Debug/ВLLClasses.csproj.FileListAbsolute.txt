@@ -1,2 +1,16 @@
 C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\ClientLogic\obj\Debug\ВLLClasses.csprojAssemblyReference.cache
 C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\ClientLogic\obj\Debug\ВLLClasses.csproj.CoreCompileInputs.cache
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\ClientLogic\bin\Debug\ClientLogic.dll
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\ClientLogic\bin\Debug\ClientLogic.pdb
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\ClientLogic\bin\Debug\BLLInterfaces.dll
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\ClientLogic\bin\Debug\DALInterfaces.dll
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\ClientLogic\bin\Debug\Entities.dll
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\ClientLogic\bin\Debug\Exceptions.dll
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\ClientLogic\bin\Debug\BLLInterfaces.pdb
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\ClientLogic\bin\Debug\DALInterfaces.pdb
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\ClientLogic\bin\Debug\Entities.pdb
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\ClientLogic\bin\Debug\Entities.dll.config
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\ClientLogic\bin\Debug\Exceptions.pdb
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\ClientLogic\obj\Debug\ВLLClasses.csproj.CopyComplete
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\ClientLogic\obj\Debug\ClientLogic.dll
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\ClientLogic\obj\Debug\ClientLogic.pdb

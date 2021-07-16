@@ -12,9 +12,15 @@ namespace SqlEfDAL.Repositories
     public class LotRepo : ILotRepo
     {
         public AuctionContext db;
-        public void CreateLot(Lot lot)
+
+        public LotRepo()
         {
             db = new AuctionContext();
+        }
+
+        public void CreateLot(Lot lot)
+        {
+            //db = new AuctionContext();
             var t = db.Lots.Add(lot);
             db.SaveChanges();
             lot.Id = t.Id;
@@ -22,7 +28,7 @@ namespace SqlEfDAL.Repositories
 
         public void DeleteLot(int lotId)
         {
-            db = new AuctionContext();
+            //db = new AuctionContext();
             var p1 = db.Lots.Find(lotId);
             if (p1 != null)
             {
@@ -35,7 +41,7 @@ namespace SqlEfDAL.Repositories
 
         public Lot GetLotById(int lotId)
         {
-            db = new AuctionContext();
+            //db = new AuctionContext();
             Lot lot = db.Lots.Find(lotId); ;
             return lot;
         }
@@ -43,7 +49,7 @@ namespace SqlEfDAL.Repositories
 
         public void UpdateLot(int lotId, string description, double startingPrice, DateTime expirationDate)
         {
-            db = new AuctionContext();
+            //db = new AuctionContext();
             Lot lot = db.Lots.Find(lotId); ;
             lot.Description = description;
             lot.StartingPrice = startingPrice;
@@ -55,7 +61,7 @@ namespace SqlEfDAL.Repositories
 
         public ICollection<Lot> GetLotsByBet(Double bet)
         {
-            db = new AuctionContext();
+            //db = new AuctionContext();
             List<Lot> lots = new List<Lot>();
 
             foreach (var lot in db.Lots.Where(p => p.ExpirationDate <= DateTime.Now))

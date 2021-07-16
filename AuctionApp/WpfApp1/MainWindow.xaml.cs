@@ -23,6 +23,15 @@ namespace WpfApp1
         public MainWindow()
         {
             InitializeComponent();
+            MainFrame.Content = new AuthenticationPages.LoginPage();
+        }
+
+        private void LoginBtn_Click(object sender, RoutedEventArgs e)
+        {
+        }
+
+        private void RegistrationBtn_Click(object sender, RoutedEventArgs e)
+        {
         }
     }
 }

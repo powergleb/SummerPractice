@@ -15,3 +15,5 @@ C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\SqlEfDAL\obj\Debug\Sql
 C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\SqlEfDAL\obj\Debug\SqlEfDAL.dll
 C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\SqlEfDAL\obj\Debug\SqlEfDAL.pdb
 C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\SqlEfDAL\bin\Debug\Entities.dll.config
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\SqlEfDAL\bin\Debug\Exceptions.dll
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\SqlEfDAL\bin\Debug\Exceptions.pdb

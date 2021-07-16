@@ -13,11 +13,11 @@ namespace ConsolePL
         static void Main(string[] args)
         {
             User user = new User() { Id = 1,
-                Name = "GLeb",
-                Surname = "ROkakh",
-            Patronymic = "Evgenevich",
-            Login = "powergleb1",
-            Pass = "1",
+                Name = "Иван",
+                Surname = "Иванов",
+            Patronymic = "Иванович",
+            Login = "vano",
+            Pass = "11",
             };
             Lot lot = new Lot()
             {
@@ -31,9 +31,11 @@ namespace ConsolePL
             };
 
             UserRepo userRepo = new UserRepo();
+
             userRepo.CreateUser(user);
-            LotRepo lotRepo = new LotRepo();
-            lotRepo.CreateLot(lot);
+
+            //LotRepo lotRepo = new LotRepo();
+            //lotRepo.CreateLot(lot);
 
             Console.WriteLine("Нажмите");
             Console.ReadKey();

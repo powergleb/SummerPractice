@@ -13,9 +13,15 @@ namespace SqlEfDAL.Repositories
     public class OrderRepo : IOrderRepo
     {
         AuctionContext db;
-        public void CreateOrder(Order order)
+
+        public OrderRepo()
         {
             db = new AuctionContext();
+        }
+
+        public void CreateOrder(Order order)
+        {
+            //db = new AuctionContext();
             if ((order.Bet < db.Lots.Find(order.LotId).StartingPrice) ||
                 (order.Bet < db.Orders.Where(p=> p.LotId == order.LotId).OrderByDescending(p=>p.Bet).FirstOrDefault().Bet))
             {
@@ -32,7 +38,7 @@ namespace SqlEfDAL.Repositories
 
         public void DeleteOrder(int orderId)
         {
-            db = new AuctionContext();
+            //db = new AuctionContext();
             var p1 = db.Orders.Find(orderId);
             if (p1 != null)
             {

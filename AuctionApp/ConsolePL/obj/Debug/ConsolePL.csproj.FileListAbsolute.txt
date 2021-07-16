@@ -18,3 +18,5 @@ C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\ConsolePL\obj\Debug\Co
 C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\ConsolePL\bin\Debug\Entities.dll.config
 C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\ConsolePL\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\ConsolePL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\ConsolePL\bin\Debug\Exceptions.dll
+C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\ConsolePL\bin\Debug\Exceptions.pdb

@@ -13,9 +13,15 @@ namespace SqlEfDAL.Repositories
     public class UserRepo : IUserRepo
     {
         public AuctionContext db;
-        public void CreateUser(User user)
+
+        public UserRepo()
         {
             db = new AuctionContext();
+        }
+
+        public void CreateUser(User user)
+        {
+           
             if (GetUserByLogin(user.Login) == null)
             {
                 var t = db.Users.Add(user);
@@ -30,7 +36,7 @@ namespace SqlEfDAL.Repositories
         }
         public User GetUserById(int userId)
         {
-            db = new AuctionContext();
+            //db = new AuctionContext();
             User user = db.Users.Find(userId); ;
             return user;
         }
@@ -40,19 +46,19 @@ namespace SqlEfDAL.Repositories
             {
                 throw new InvalidValueException(nameof(login));
             }
-            db = new AuctionContext();
+            //db = new AuctionContext();
             var user = db.Users.FirstOrDefault(p => p.Login == login);
             return user;
         }
         public ICollection <Lot> GetSelledLots(int userId)
         {
-            db = new AuctionContext();
+            //db = new AuctionContext();
             var lots = db.Lots.Where(p=>p.SellingUserId == userId && p.ExpirationDate<=DateTime.Now).ToList();
             return lots;
         }
         public ICollection<Lot> GetPurchasedLots(int userId)
         {
-            db = new AuctionContext();
+            //db = new AuctionContext();
             List<Lot> lots = new List<Lot>();
             foreach (var lot in db.Lots.Where(p => p.ExpirationDate <= DateTime.Now))
             {
@@ -63,7 +69,7 @@ namespace SqlEfDAL.Repositories
         }
         public void UpdateUser(int userId, DateTime DateofBirth, string Login, string Name, string Pass, string Patronymic, string Surname)
         {
-            db = new AuctionContext();
+            //db = new AuctionContext();
             User user = db.Users.Find(userId); ;
             user.DateofBirth = DateofBirth;
            

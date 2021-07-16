@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\groka\OneDrive\Desktop\SummerPractice\AuctionApp\WpfApp1\App.xaml
-11151548125
+3-1925573804
 
-61434861427
-14-1690920695
-MainWindow.xaml;
+8-359504947
+1820224707
+AuthenticationPages\LoginPage.xaml;AuthenticationPages\RegistrationPage.xaml;MainWindow.xaml;
 
-True
+False
 

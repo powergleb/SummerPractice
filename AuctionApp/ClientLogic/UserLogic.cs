@@ -33,6 +33,7 @@ namespace BLLCLasses
             {
                 throw new InvalidValueException($"{nameof(User.Pass)}");
             }
+            _userRepository.CreateUser(User);
         }
 
         public ICollection<Lot> GetPurchasedLots(int userId)
